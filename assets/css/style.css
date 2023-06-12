@@ -891,7 +891,7 @@ body.active { overflow: hidden; }
   gap: 10px;
 }
 
-.social-link { font-weight: var(--fw-500); }
+.social-link { font-weight: var(--fw-500); font-size: 25px; }
 
 .social-link:is(:hover, :focus-visible) { text-decoration: underline; }
 
