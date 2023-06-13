@@ -958,6 +958,10 @@ body.active { overflow: hidden; }
  * responsive for large than 575px screen
  */
 
+@media (max-width: 575px) {
+  .footer-top .section-title { --fs-2: 3rem; }
+}
+
 @media (min-width: 575px) {
 
   /**
@@ -1612,7 +1616,7 @@ body.active { overflow: hidden; }
   .footer-top { padding-block: 300px; }
 
   .footer-top .section-title {
-    --fs-2: 8rem;
+    --fs-2: 4rem;
     margin-block-start: 50px;
   }
 
@@ -1728,5 +1732,7 @@ body.active { overflow: hidden; }
    */
 
   .footer-top .container { max-width: 1200px; }
+
+  .footer-top .section-title { --fs-2: 5rem; }
 
 }
