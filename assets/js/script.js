@@ -236,3 +236,7 @@ document.body.addEventListener("mouseout", function () {
 document.body.addEventListener("mouseover", function () {
   cursor.classList.remove("disabled");
 });
+
+document.addEventListener("contextmenu", (event) => {
+  event.preventDefault();
+ });
